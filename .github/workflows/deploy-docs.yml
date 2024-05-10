@@ -26,7 +26,7 @@ jobs:
       - name: 设置 rust环境
         uses: hecrj/setup-rust-action@v2
       - name: 设置mdbook环境
-        run: cargo install mdbook ----locked&&export PATH=$PATH:$home/.cargo/bi
+        run: cargo install mdbook --locked&&export PATH=$PATH:$home/.cargo/bi
       - name: 编译文档
         run: mdbook build
       - name: 部署文档
