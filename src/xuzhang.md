@@ -1,13 +1,13 @@
 # 序章
-![葱喵一代立绘](https://s2.loli.net/2023/07/01/Ld1NABkS96hiynG.png#pic_center)
-> 这里大概是一切的起点，那么，欢迎您使用葱喵Bot
-葱喵Bot是一款集音游功能，娱乐功能，使用功能为一体的不打算做跨平台的也不是很新时代的Bot
-你可以通过以下方式联系我们————
+![葱喵一代立绘](https://s2.loli.net/2023/07/01/Ld1NABkS96hiynG.png#pic_center){zoom:50%;}
+> 这里大概是一切的起点，那么，欢迎您使用葱喵Bot\n
+葱喵Bot是一款集音游功能，娱乐功能，使用功能为一体的不打算做跨平台的也不是很新时代的Bot\n
+你可以通过以下方式联系我们————\n
 [点击链接加入群聊【笨蛋葱喵的sekai】:](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=icdYj7mi4IEo17loamA2LV8L3q7yHkPF&authKey=6xp68xQuPeu13pSFsAGly%2BgkWHma2tj2lmRjFitYvaG1SQskWjWx5ohSNlnkfpf%2F&noverify=0&group_code=917766863)
 
 或者，如果你想支持我们的服务的话，可以尝试请维护组喝一瓶可乐？
-![赞赏码](https://dl.ty0.icu/wx.jpg#pic_center)
+![赞赏码](https://dl.ty0.icu/wx.jpg#pic_center){zoom:50%;}
 ## 感谢名单
-画师：[神坂神坂](https://space.bilibili.com/501085490)
-维护组成员：[天音铃](https://space.bilibili.com/185604274)，[傻白](https://space.bilibili.com/23589794)
+画师：[神坂神坂](https://space.bilibili.com/501085490)\n
+维护组成员：[天音铃](https://space.bilibili.com/185604274)，[傻白](https://space.bilibili.com/23589794)\n
 还有每一位支持并使用葱喵Bot的用户们！
