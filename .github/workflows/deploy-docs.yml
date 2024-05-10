@@ -23,22 +23,12 @@ jobs:
 
 
 
-      - name: 设置 Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: yarn
-
-      - name: 安装依赖
-        run: yarn config set ignore-engines true&&yarn install --frozen-lockfile
-
-      - name: 构建文档
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          yarn run docs:build
-          > src/.vuepress/dist/.nojekyll
-
+      - name: 设置 rust环境
+        use: hecrj/setup-rust-action@v2
+      - name: 设置mdbook环境
+      - run: cargo install mdbook ----locked&&export PATH=$PATH:$home/.cargo/bi
+      - name: 编译文档
+      - run: mdbook buil
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
