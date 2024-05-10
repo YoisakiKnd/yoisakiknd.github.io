@@ -4,6 +4,7 @@
 </div>
 
 > 这里大概是一切的起点，那么，欢迎您使用葱喵Bot<br />
+
 葱喵Bot是一款集音游功能，娱乐功能，使用功能为一体的不打算做跨平台的也不是很新时代的Bot<br />
 你可以通过以下方式联系我们————<br />
 [点击链接加入群聊【笨蛋葱喵的sekai】:](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=icdYj7mi4IEo17loamA2LV8L3q7yHkPF&authKey=6xp68xQuPeu13pSFsAGly%2BgkWHma2tj2lmRjFitYvaG1SQskWjWx5ohSNlnkfpf%2F&noverify=0&group_code=917766863)<br />
