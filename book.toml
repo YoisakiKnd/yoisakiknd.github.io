@@ -1,6 +1,8 @@
 [book]
-authors = []
-language = "en"
+title = "葱喵Bot手册"
+description = "一段关于葱喵bot的奇妙冒险......"
+authors = ["TenonSuzu"]
+language = "zh-CN"
 multilingual = false
 src = "src"
 
