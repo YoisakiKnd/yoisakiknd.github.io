@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="zh-CN" class="light" dir="ltr">
+<html lang="zh-CN" class="macchiato" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -38,7 +38,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "mocha" : "macchiato";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -63,7 +63,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('light')
+            html.classList.remove('macchiato')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -90,7 +90,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="xuzhang.html"><strong aria-hidden="true">1.</strong> 序章</a></li><li class="chapter-item expanded "><a href="bothelp.html" class="active"><strong aria-hidden="true">2.</strong> Bot帮助</a></li><li class="chapter-item expanded "><a href="maimaiupdate.html"><strong aria-hidden="true">3.</strong> MaiMaiDX上传帮助</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="xuzhang.html"><strong aria-hidden="true">1.</strong> 序章</a></li><li class="chapter-item expanded "><a href="bothelp.html" class="active"><strong aria-hidden="true">2.</strong> Bot帮助</a></li><li class="chapter-item expanded "><a href="maimaiupdate.html"><strong aria-hidden="true">3.</strong> MaiMaiDX上传帮助</a></li><li class="chapter-item expanded "><a href="ab30.html"><strong aria-hidden="true">4.</strong> ArcaeaB30上传帮助</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -193,22 +193,11 @@
 <p>请在群内发送<code>帮助MaiMaiDX</code>获取帮助图片<br /></p>
 <h2 id="实用功能"><a class="header" href="#实用功能">实用功能</a></h2>
 <h3 id="天气"><a class="header" href="#天气">天气</a></h3>
-<p>发送<code>天气 城市</code>或<code>城市 天气</code>获取天气（可能出图较慢，请耐心等待）</p>
+<p>发送<code>天气 城市</code>或<code>城市 天气</code>获取天气</p>
 <h3 id="签到"><a class="header" href="#签到">签到</a></h3>
 <p><code>签到</code> 进行签到<br /></p>
-<h3 id="词云"><a class="header" href="#词云">词云</a></h3>
-<p><code>今日词云</code> 获取今日词云<br />
-<code>昨日词云</code> 获取昨日词云<br />
-<code>本周词云</code> 获取本周词云<br />
-<code>上周词云</code> 获取上周词云<br />
-<code>本月词云</code> 获取本月词云<br />
-<code>上月词云</code> 获取上月词云<br /></p>
 <h3 id="状态"><a class="header" href="#状态">状态</a></h3>
 <p><code>状态</code> 查看机器人运行状态</p>
-<h3 id="色图"><a class="header" href="#色图">色图</a></h3>
-<p><code>色图 [0-10张] [r18] [tag]</code> 发送色图<br />
-上面[]中均为可选参数，tag可多选，多tag请添加空格分割<br />
-r18权限请开启</p>
 <h3 id="偷窥"><a class="header" href="#偷窥">偷窥</a></h3>
 <p><code>cb peek</code> 偷窥bot主的屏幕</p>
 <h3 id="反馈"><a class="header" href="#反馈">反馈</a></h3>
@@ -219,21 +208,6 @@ r18权限请开启</p>
 <h2 id="娱乐功能"><a class="header" href="#娱乐功能">娱乐功能</a></h2>
 <h3 id="今日运势"><a class="header" href="#今日运势">今日运势</a></h3>
 <p><code>今日运势</code> 查看今天的运势</p>
-<h3 id="棋类游戏"><a class="header" href="#棋类游戏">棋类游戏</a></h3>
-<p><code>@机器人+五子棋</code> 开启五子棋游戏<br />
-<code>@机器人+围棋</code> 开启围棋游戏<br />
-<code>@机器人+黑白棋</code> 开启黑白棋游戏<br />
-<code>落子 字母+数字</code> 下棋（本指令不需要加命令前缀）<br />
-<code>@机器人+boardgame [options]</code> 执行棋类游戏命令<br />
-可用选项：<br />
-· <code>-r RULE</code>,<code>--rule RULE</code> 规则名<br />
-· <code>-e</code>,<code>--end</code>,<code>--stop</code> 停止下棋<br />
-·<code>-v</code>,<code>--view</code>,<code>--show</code> 显示棋盘<br />
-·<code>--repent</code> 悔棋<br />
-·<code>--skip</code> 跳过回合<br />
-·<code>--reload</code> 重启因为超时/被指令关闭而关闭的棋局<br />
-·<code>--white</code> 白方起手，即后手<br />
-·<code>POSITION</code> 位置<br /></p>
 <h3 id="猜单词"><a class="header" href="#猜单词">猜单词</a></h3>
 <p><code>wordle [options]</code> 开启游戏
 可用选项：<br />
@@ -253,8 +227,9 @@ GRE,考研,GMAT,专四,TOFEL,SAT,专八,IELTS,CET4,CET6<br />
 <h3 id="头像表情包"><a class="header" href="#头像表情包">头像表情包</a></h3>
 <p>触发指令：指令+@某人/qq号/自己/【图片】
 支持的指令：<br /></p>
-<pre><code class="language-admonish tip">请在群内发送`头像表情包帮助`获取帮助
-</code></pre>
+<blockquote>
+<p>请在群内发送<code>头像表情包帮助</code>获取帮助</p>
+</blockquote>
 <h3 id="娶群友"><a class="header" href="#娶群友">娶群友</a></h3>
 <ul>
 <li><code>娶群友</code> 纯爱，一天刷新一次，双向奔赴<br /></li>
