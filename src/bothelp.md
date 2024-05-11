@@ -46,7 +46,7 @@ GRE,考研,GMAT,专四,TOFEL,SAT,专八,IELTS,CET4,CET6<br />
 ### 头像表情包
 触发指令：指令+@某人/qq号/自己/【图片】
 支持的指令：<br />
-``` admonish note
+```admonish note
 请在群内发送`头像表情包帮助`获取帮助
 ```
 
