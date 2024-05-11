@@ -2,7 +2,7 @@
 ## 音游功能
 本BOT音游相关由第三方Bot服务提供<br />
 ### ChieriBot帮助
-提供了Arcaea，MaiMai，OSU！，等游戏的查询<br />
+提供了Arcaea，MaiMai，OSU！等游戏的查询<br />
 [ChieriBot帮助文档](https://chieri.docs.chinosk6.cn)<br />
 ### UniBot帮助
 提供了ProjectSekai/世界计划的游戏查询
@@ -58,4 +58,4 @@ GRE,考研,GMAT,专四,TOFEL,SAT,专八,IELTS,CET4,CET6<br />
 - `群友卡池` 查看当前群可以娶到的群友列表<br />
 - `透群友` 字面意思，每次抽到的结果都不一样<br />
 - `涩涩记录` 查看当前群群友今日透群友次数和被透次数，记录跨群<br />
-~~群友背地里玩的挺花~
+~~群友背地里玩的挺花~~
