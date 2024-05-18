@@ -58,3 +58,8 @@ GRE,考研,GMAT,专四,TOFEL,SAT,专八,IELTS,CET4,CET6<br />
 - `透群友` 字面意思，每次抽到的结果都不一样<br />
 - `涩涩记录` 查看当前群群友今日透群友次数和被透次数，记录跨群<br />
 ~~群友背地里玩的挺花~~
+
+### 测试
+```admonish tip
+Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency.
+```
