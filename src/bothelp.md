@@ -6,7 +6,9 @@
 [ChieriBot帮助文档](https://chieri.docs.chinosk6.cn)<br />
 ### UniBot帮助
 提供了ProjectSekai/世界计划的游戏查询
-> Unibot内猜曲，猜卡面等功能需要联系bot主单独开放
+```admonish info
+Unibot内猜曲，猜卡面等功能需要联系bot主单独开放
+```
 [Unibot使用帮助](https://docs.unipjsk.com)
 ### MaiMaiDX
 请在群内发送`帮助MaiMaiDX`获取帮助图片<br />
@@ -24,6 +26,7 @@
 ### steam订阅
 `steambind` [STEAM ID/steam好友码] 绑定steam<br />
 `steamcheck` 呼出本群订阅列表<br />
+
 ## 娱乐功能
 ### 今日运势
 `今日运势` 查看今天的运势
@@ -58,8 +61,3 @@ GRE,考研,GMAT,专四,TOFEL,SAT,专八,IELTS,CET4,CET6<br />
 - `透群友` 字面意思，每次抽到的结果都不一样<br />
 - `涩涩记录` 查看当前群群友今日透群友次数和被透次数，记录跨群<br />
 ~~群友背地里玩的挺花~~
-
-### 测试
-```admonish tip
-Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency.
-```
