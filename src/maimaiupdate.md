@@ -1,5 +1,5 @@
 # MaiMaiDX成绩上传教程
-## 使用BakaPiano网站上传(推荐)
+## 使用BakaPiano网站上传
 ### Windows(Win10/11通用)
 - 打开“设置”－－找到“网络和Internet”－－点击“代理”－－找到“手动设置代理”打开“使用代理服务器”－－在地址中填入`proxy.bakapiano.com`－－在端口中填入`2560`－－点击保存
 - 登录微信－－找到一个聊天窗口－－发送`maimai.bakapiano.com`－－打开链接－－填入查分器账号，密码－－点击更新－－等待弹出Success后退出
