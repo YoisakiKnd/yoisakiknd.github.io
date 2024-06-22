@@ -4,12 +4,14 @@
 ### ChieriBot帮助
 提供了Arcaea，MaiMai，OSU！等游戏的查询<br />
 [ChieriBot帮助文档](https://chieri.docs.chinosk6.cn)<br />
+
 ### UniBot帮助
 提供了ProjectSekai/世界计划的游戏查询
-```admonish info
+```admonish tip
 Unibot内猜曲，猜卡面等功能需要联系bot主单独开放
 ```
 [Unibot使用帮助](https://docs.unipjsk.com)
+
 ### MaiMaiDX
 请在群内发送`帮助MaiMaiDX`获取帮助图片<br />
 ## 实用功能
@@ -19,11 +21,14 @@ Unibot内猜曲，猜卡面等功能需要联系bot主单独开放
 `签到` 进行签到<br />
 ### 状态
 `状态` 查看机器人运行状态
+### 偷窥
+`cb peek` 偷窥bot主的屏幕
 ### 反馈
 `.send+反馈内容`向维护组成员发送反馈
 ```admonish danger
 请合理使用
 ```
+
 ### steam订阅
 `steambind` [STEAM ID/steam好友码] 绑定steam<br />
 `steamcheck` 呼出本群订阅列表<br />
@@ -36,25 +41,21 @@ Unibot内猜曲，猜卡面等功能需要联系bot主单独开放
 可用选项：<br />
 `-l`,`--length` 指定单词长度，默认为5（在选项后跟数字）<br />
 `-d`,`--dic` 指定词典，默认为CET4<br />
-```admonish tip
-请记得在选项后加空格，如`world -l 8`表示以八个字母的长度开始游戏
-```
 可选词典：<br />
 GRE,考研,GMAT,专四,TOFEL,SAT,专八,IELTS,CET4,CET6<br />
 ~~BOT主：我是一个也看不懂~~<br/>
-`提示` 获取提示<br />
-`结束` 停止游戏<br />
+`--hint` 获取提示<br />
+`--stop` 停止游戏<br />
 ### 猜成语
 `猜成语 [options]`开启游戏<br />
 可用选项:<br />
-`提示` 获取提示<br />
-`结束` 停止游戏<br />
+`--hint` 获取提示<br />
+`--stop` 停止游戏<br />
 `--strict` 开启严格模式，即猜测短语必须为成语<br />
 ### 头像表情包
 触发指令：指令+@某人/qq号/自己/【图片】
 支持的指令：<br />
-
-```admonish info
+```admonish tip
 请在群内发送`头像表情包帮助`获取帮助
 ```
 
