@@ -18,10 +18,9 @@ assets_version = "3.0.0" # do not edit: managed by `mdbook-admonish install`
 [output]
 
 [output.html]
-additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css", "./theme/mdbook-admonish.css",]
+additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css", "./theme/mdbook-admonish.css", "./theme/ty0-mdbook.css"]
 default-theme = "Macchiato"
 preferred-dark-theme = "mocha"
 no-section-label = true
 git-repository-url = "https://github.com/YoisakiKnd/yoisakiknd.github.io"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/YoisakiKnd/yoisakiknd.github.io/edit/main/{path}"
